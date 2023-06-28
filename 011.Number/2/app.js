@@ -4,4 +4,4 @@
 let a = +prompt("введите первое число");
 let b = +prompt("введите второе число");
 
-console. log (a ** b);
+console.log(a ** b);

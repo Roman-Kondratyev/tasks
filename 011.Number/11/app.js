@@ -5,8 +5,8 @@ let a = +prompt("введите первое число");
 
 let b = +prompt("введите второе число");
 
-console.log("сума", a+b);
+console.log("сума", a + b);
 
-console.log("разность", a-b);
+console.log("разность", a - b);
 
-console.log("произведение", a*b)
+console.log("произведение", a * b)

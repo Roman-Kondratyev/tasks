@@ -5,4 +5,4 @@ let a = prompt("введите первый катет");
 
 let b = prompt("введите второй катет");
 
-console.log(1/2*a*b);
+console.log(1 / 2 * a * b);

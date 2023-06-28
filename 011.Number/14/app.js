@@ -3,9 +3,9 @@
 
 let a = +prompt("введите число");
 
-if(a>0){
+if (a > 0) {
     console.log(true);
-}else{
+} else {
     console.log(false);
 }
 

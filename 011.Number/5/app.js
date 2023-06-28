@@ -7,8 +7,8 @@ let a = +prompt("введите значение");
 
 let b = +prompt("введите значение");
 
-if(a%b===0){
-    console.log("делится", a/b);
-} else{
-    console. log("делится с остатком", a/b);
+if (a % b === 0) {
+    console.log("делится", a / b);
+} else {
+    console.log("делится с остатком", a / b);
 }
