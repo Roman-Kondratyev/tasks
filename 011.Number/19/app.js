@@ -17,6 +17,7 @@ if (x < 0) {
 } else if (x === 0) {
     alert(-b / (2 * a));
 } else if (x > 0) {
+    
     alert((-b + Math.sqrt(x)) / (2 * a).toFixed(0) || (-b - Math.sqrt(x)) / (2 * a).toFixed(0));
 }
 
