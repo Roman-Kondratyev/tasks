@@ -14,11 +14,11 @@ if (isNaN(v1, v2, s)) {
     console.log(`ошибка`);
 } else {
   let t = s/(v1+v2);
-  alert(`Автомобили встретятся ${T}`)
+  alert(`Автомобили встретятся ${t}`)
     if (Number.isInteger(b)) {
-        console.log(b);
+        alert(b);
     } else {
-        console.log(Math.round(b));
+        alert (Math.round(b));
     }
 }
 

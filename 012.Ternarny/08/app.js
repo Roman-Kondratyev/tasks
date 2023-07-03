@@ -29,12 +29,12 @@ switch (a) {
         alert(`осень`);
         break;
     case 12:
-        alert(`зима`)
+        alert(`зима`);
+        break;
+    case 13:
+        alert(`очень остроумно)`);
         break;
     default:
-        alert(`такого месяца не существует`)
+        alert(`такого месяца не существует`);
         break;
 }
-
-
-
