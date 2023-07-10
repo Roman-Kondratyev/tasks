@@ -2,8 +2,7 @@
 // кратные 3.
 
 let a = 9;
-let b = 1;
+
 for (let i = 1; i<=9; i++) {
-    a%3===0 ? alert(i): null;
+    i%3===0 ? alert(i): null;
 }
-alert(b);

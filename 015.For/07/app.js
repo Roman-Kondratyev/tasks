@@ -1,9 +1,13 @@
-// Дан статичный массив элементов. С помощью цикла for найдите произведение
-// всех элементов массива
+// Преобразуйте первую букву строки в верхний регистр несколькими способами
 
-let a = [4, 7, 9, 5, 2];
-let b = 1;
-for (let i = 0; i < a.length; i++) {
-    b *= a[i];
+let a = `london in the capital of grate Britan`.toLowerCase();
+// let  b = str[0].toUpperCase()
+// alert (b)
+
+for (let i=0 ; i < a.length; i++){
+    if(i===0){
+        alert(a[i].toUpperCase()+a.slice(1))
+    }
 }
-alert(b);
+
+alert(a[0].toUpperCase()+a.slice(1))

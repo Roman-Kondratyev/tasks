@@ -3,7 +3,8 @@
 
 let a = [4, 7, 9, 5, 2];
 let b = 1;
+
 for (let i = 0; i < a.length; i++) {
-    b *= a[i];
-}
+    b = b * a[i];
+};
 alert(b);
