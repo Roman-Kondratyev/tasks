@@ -4,5 +4,4 @@
 
 let a = prompt(`введите строку`).trim();
 
-if(isNaN(a))
-alert( !isNaN(a)? `ошибка ввода данных`: a[0].toUpperCase()+ a.slice(1))
+alert( !isNaN(a)? `ошибка ввода данных` : a[0].toUpperCase()+ a.slice(1))

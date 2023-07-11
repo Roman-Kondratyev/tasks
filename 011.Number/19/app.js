@@ -8,16 +8,15 @@ let a = +prompt("введите значение a");
 
 let b = +prompt(`введите значение b`);
 
-let c = prompt("введите значение c");
+let c = +prompt("введите значение c");
 
-let x = (b ** 2 - 4 * a * c)
+let x = (b ** 2 - 4 * a * c);
 
 if (x < 0) {
     alert("корней нет");
 } else if (x === 0) {
     alert(-b / (2 * a));
 } else if (x > 0) {
-    
     alert((-b + Math.sqrt(x)) / (2 * a).toFixed(0) || (-b - Math.sqrt(x)) / (2 * a).toFixed(0));
 }
 

@@ -7,9 +7,9 @@ let b = prompt(`введите второе число`);
 let str = a+b;
 
 
-if (isNaN(a, b)) {
+if (isNaN(a)|| isNaN(b)) {
     alert(`ошибка`);
-} else if ((a<10, a>0) && (b>0 , b<10)){
+} else if ((a<10 && a>0) && (b>0 && b<10)){
     alert(`I"m ${str}`);
 }else{
     alert(`некоректные данные`)
