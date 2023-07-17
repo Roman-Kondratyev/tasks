@@ -5,13 +5,15 @@
 
 let a = +prompt(`введите число`);
 let b = ``;
-// let c = ``
+
 for (let i = 0; i < a.length; i++) {
 b+= (a[i]%2 === 0 ? ` ${a[i]}-чет ` : ` ${a[i]}-неч `);
-    // if(a[i]%2===0){
+}
+console.log(b);
+
+// let c = ``
+// if(a[i]%2===0){
     //     b += +a[i]+ `чет`
     // }else if(a[i]%2!==0){
     //     c += +a[i]+ `нечет`
     // }
-}
-console.log(b);
