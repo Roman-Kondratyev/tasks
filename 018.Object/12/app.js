@@ -9,7 +9,7 @@ let n = prompt(`введите количество элементов масс�
 
 for(let i =0 ; i<n; i++){
   let a = +prompt(`введите число`);
-  isNaN(a)? arr.push(a): null;
+  !isNaN(a)? arr.push(a): null;
 }
 
 let result = arr.reduce(function(sum,el){

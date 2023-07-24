@@ -6,9 +6,7 @@ const obj = {
   id:1,
 };
 
-let count = 0
-
-const arr =[];
+let count = 0; 
 
 for (let key in object) {
   if (key) {

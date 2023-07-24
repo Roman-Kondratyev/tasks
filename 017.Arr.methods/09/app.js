@@ -2,11 +2,11 @@
 // массива с клавиатуры. Выведите сумму всех элементов массива. Проверки на
 // ввод только чисел. Использовать forEach, reduce
 
-const n = prompt("колл эл");
+const n = prompt("колличество элементов");
 let arr = [];
 
 for (let i = 0; i < n; i++) {
-  let a = prompt("насвание эл");
+  let a = prompt(`введите`);
   !isNaN(a) ? arr.push(a) : null;
 }
 
