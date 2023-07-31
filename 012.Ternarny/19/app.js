@@ -3,4 +3,4 @@
 
 let a = prompt('введите строку');
 
-alert (a.repeat(3));
+alert(a.repeat(3));

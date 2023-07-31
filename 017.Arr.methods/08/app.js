@@ -7,7 +7,7 @@ let n = prompt(``);
 
 let arr = [];
 
-for(let i= 0; i<n; i++){
+for (let i = 0; i < n; i++) {
     arr.push(prompt(``));
 };
 
@@ -17,7 +17,7 @@ for(let i= 0; i<n; i++){
 //     isNaN(el)? false : true;
 // });
 
-const result = arr.every(function(el){
-    return isNaN(el)? false: true;
+const result = arr.every(function (el) {
+    return isNaN(el) ? false : true;
 });
 console.log(result);

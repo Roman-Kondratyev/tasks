@@ -6,13 +6,13 @@ let a = prompt("введите значение");
 
 if (isNaN(a)) {
     alert("false");
-} else{
+} else {
     alert(`true`)
 }
 
-isNaN(a)? alert("false") : alert("true");
+isNaN(a) ? alert("false") : alert("true");
 
-alert( isNaN(a)? "false" : "true")
+alert(isNaN(a) ? "false" : "true");
 
 
 

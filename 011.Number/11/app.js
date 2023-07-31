@@ -9,4 +9,4 @@ console.log("сума", a + b);
 
 console.log("разность", a - b);
 
-console.log("произведение", a * b)
+console.log("произведение", a * b);

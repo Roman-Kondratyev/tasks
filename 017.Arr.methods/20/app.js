@@ -9,7 +9,7 @@ for (let i = 0; i < n; i++) {
   arr.push(value);
 }
 
-const arr_2=arr.filter(function(el){
-    return el%2===0?true:false
+const arr_2 = arr.filter(function (el) {
+  return el % 2 === 0 ? true : false
 })
 console.log(arr_2);

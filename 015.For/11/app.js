@@ -8,8 +8,8 @@
 // **
 // *
 
-let a =7;
+let a = 7;
 
-for(let i= a; i>=1; i--){
-console.log(`*`.repeat(i));
+for (let i = a; i >= 1; i--) {
+    console.log(`*`.repeat(i));
 };

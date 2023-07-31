@@ -4,4 +4,4 @@
 
 let a = prompt('введите строку').trim().toLowerCase();
 
-alert (isNaN(a) ? a.replaceAll('', '-'): 'это не строка');
+alert(isNaN(a) ? a.replaceAll('', '-') : 'это не строка');

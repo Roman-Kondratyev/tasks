@@ -17,7 +17,7 @@ const obj = {
   3: 5,
   4: 2,
   5: 2,
-  6: 1,
+  6: 1
 }
 let arr = [];
 let newobj = {};

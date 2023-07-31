@@ -13,12 +13,12 @@ let s = prompt(`введите растояние`);
 if (isNaN(v1, v2, s)) {
     console.log(`ошибка`);
 } else {
-  let t = s/(v1+v2);
-  alert(`Автомобили встретятся ${t}`)
+    let t = s / (v1 + v2);
+    alert(`Автомобили встретятся ${t}`)
     if (Number.isInteger(b)) {
         alert(b);
     } else {
-        alert (Math.round(b));
+        alert(Math.round(b));
     }
 }
 

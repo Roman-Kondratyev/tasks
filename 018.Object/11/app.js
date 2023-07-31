@@ -6,6 +6,6 @@ const obj = {};
 
 let a = +prompt(``);
 let b = +prompt(``);
-obj.avg = (a+b)/2
+obj.avg = (a + b) / 2;
 
 console.log(obj);

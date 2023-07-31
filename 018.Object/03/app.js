@@ -11,4 +11,4 @@ for (let key in obj) {
   if (!isNaN(obj[key])) {
     console.log(obj[key]);
   }
-}
+};

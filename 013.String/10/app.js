@@ -2,6 +2,6 @@
 // элемент к нижнему регистру. Повторить строку 3 раза. Добавить проверку на ввод
 // только текстовых значений
 
-let a =prompt(`введите строку`).toLowerCase().trimStart();
+let a = prompt(`введите строку`).toLowerCase().trimStart();
 
-alert(isNaN(a)? a.repeat(3) : `ошибка ввода данных`)
+alert(isNaN(a) ? a.repeat(3) : `ошибка ввода данных`);

@@ -12,9 +12,9 @@ for (let i = 0; i < arr.length; i++) {
 console.log(result);
 
 
-for(let el of arr){
-    if(!result.includes(el)){
-        result.push(el)
-    }
+for (let el of arr) {
+  if (!result.includes(el)) {
+    result.push(el)
+  }
 }
 console.log(result);

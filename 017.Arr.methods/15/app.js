@@ -9,9 +9,9 @@ let arr2 = [];
 
 
 for (let i = 0; i < n; i++) {
-  i<n/2? arr.push(prompt(``)): arr2.push(prompt(``))
-  }
+  i < n / 2 ? arr.push(prompt(``)) : arr2.push(prompt(``))
+}
 
 
 const result = [...arr, ...arr2];
-console.log (result)
+console.log(result)

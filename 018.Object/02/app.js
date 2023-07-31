@@ -2,13 +2,13 @@
 
 
 const obj = {
-  1:`test`, 
-  2:`test2`,
-  name:`hschool`,
+  1: `test`,
+  2: `test2`,
+  name: `hschool`,
 }
 
-for(let key in obj){
-  if(isNaN(key)){
+for (let key in obj) {
+  if (isNaN(key)) {
     console.log(key);
   }
 }

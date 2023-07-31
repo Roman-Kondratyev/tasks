@@ -5,3 +5,13 @@
 let arr = prompt("количество элементов");
 
 let str = [];
+
+for (let i = 1; i <= arr; i++) {
+  let num = prompt("какой элемент здесь будет");
+  if (!isNaN(num)) {
+    str.push(num);
+  } else {
+    console.log("ошибка");
+  }
+}
+console.log(str);

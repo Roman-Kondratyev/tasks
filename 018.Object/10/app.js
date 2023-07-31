@@ -9,7 +9,7 @@ const obj = {
 };
 
 for (let key in obj) {
-let a= prompt(`введите значение ${key}`)
-obj[key] = a;
+  let a = prompt(`введите значение ${key}`)
+  obj[key] = a;
 }
 console.log(obj);

@@ -23,6 +23,6 @@ for (let i = 0; i < n; i++) {
 // console.log(new_arr);
 
 let new_arr = arr.map(function (el) {
-    new_arr.push(`#`+ el);
+  new_arr.push(`#` + el);
 })
 console.log(new_arr);

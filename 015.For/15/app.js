@@ -3,12 +3,12 @@
 // выведите на экран 'Есть!' и выйдите из цикла. Если нет - ничего делать не надо
 
 let a = [1, 2, 5, 9, 4, 13, 4, 10];
-let b=4;
-for(let i =0; i<a.length; i++){
-    if(b==a[i]){
+let b = 4;
+for (let i = 0; i < a.length; i++) {
+    if (b == a[i]) {
         alert(`есть`)
         break;
-    }else{
+    } else {
         console.log(null);
     }
 }

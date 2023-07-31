@@ -8,4 +8,4 @@ if (!isNaN(a)) {
     alert(`ошибка`);
 } else {
     alert(a.length);
-}
+};

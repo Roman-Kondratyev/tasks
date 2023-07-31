@@ -5,8 +5,8 @@
 
 let a = prompt(`введите строку`)
 
-if(isNaN(a)){
+if (isNaN(a)) {
     alert(a.split(``));
-}else{
-    alert( a%2===0? `четное`: `нечетное`);
+} else {
+    alert(a % 2 === 0 ? `четное` : `нечетное`);
 }

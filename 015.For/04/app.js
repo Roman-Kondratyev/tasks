@@ -13,7 +13,7 @@ for (let i = 0; i < a.length; i++) {
         break; //здесь если ввели значение 5 , то еаше условие закрывается
     } else {
         sum = sum + a[i];
-        count=count + 1;
+        count = count + 1;
     }
 }
 alert(sum / count);

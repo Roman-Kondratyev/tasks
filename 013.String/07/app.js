@@ -2,6 +2,6 @@
 
 let a = prompt(`введите email, по примеру "......@.com"`);
 
-alert( a.replaceAll(`@`, `!`));
+alert(a.replaceAll(`@`, `!`));
 
 alert(a.split(`@`).join(`!`));

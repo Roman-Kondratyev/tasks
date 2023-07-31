@@ -4,12 +4,13 @@
 // 135 -> 9
 
 let a = prompt(`введите число`);
-let b=0;
+let b = 0;
 
-if(isNaN(a)){
+if (isNaN(a)) {
     alert(`повторите попытку`);
-}else{
-for( let i=0; i<a.length; i++){
-b= b+ +a[i]
-}}
+} else {
+    for (let i = 0; i < a.length; i++) {
+        b = b + +a[i]
+    }
+}
 alert(b);

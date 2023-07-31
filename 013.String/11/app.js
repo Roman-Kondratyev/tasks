@@ -5,7 +5,7 @@
 
 // let a = prompt(`введите три слова через пробел`);
 
-let a = `full stack developer`
+let a = `full stack developer`;
 
 console.log(a.length);
 

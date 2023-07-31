@@ -1,39 +1,27 @@
 // Найти значение массива, повторяющееся в нем наибольшее количество раз
-// Массив объектов из приложения – воображаемая база данных (БД)
-// На входе объект – воображаемое тело запроса от пользователя
-// Работа по CRUD: Create, Read, Update, Delete
-// Использовать методы перебора массива
-// Возможно применение spread оператора
-// 1. Read
-// Вывести в консоль массив объектов
-// 2. Create
-// На входе объект вида
-// { "label": "Test", "category": "test", "priority": 1 },
-// Неоходимо запушить в БД объект только в том случае, если нет совпадений по
-// label.
-// Если совпадения нет, то в объект клиента добавить ключ id со значением label в
-// toLowerCase таким образом, чтобы в БД был запушен объект вида
-// {"id": "test" "label": "Test", "category": "test", "priority": 1 },
-// Если совпадение есть – ошибка
-// 3. Update
-// На входе объект вида
-// {"id" : "test" , "label": "Test", "category": "test", "priority": 1 },
-// Необходимо найти id клиента в массиве БД.
-// Если совпадение есть, произвести обновление значений для соответствующих
-// ключей.
-// Примечание: для удаления объекта в БД можно отфильтровать объект БД не
-// включая id клиента. В результативный массив запушить клиентский, тем самым
-// обновить объект БД
-// Если совпадения по id нет – ошибка
-// 4. Delete
-// Удаление объекта из массива по id
-// Примечание: для удаления объекта в БД можно отфильтровать объект БД не
-// включая id клиента
-// Если совпадения по id нет – ошибка
-// [
-// { "id": "javascript", "label": "JavaScript", "category": "programmingLanguages", "priority": 1 },
-// { "id": "typescript", "label": "TypeScript", "category": "programmingLanguages", "priority": 1 },
-// { "id": "sql", "label": "SQL", "category": "programmingLanguages", "priority": 2 },
-// { "id": "java", "label": "Java", "category": "programmingLanguages", "priority": 3 },
-// { "id": "go", "label": "GO", "category": "programmingLanguages", "priority": 3 }
-// ]
+
+let arr = [1, 2, 2, 2, 3, 3, 4, 5, 5, 29, 29, 29, 3, 29, 292, 9];
+
+const obj = {};
+
+for (let i = 0; i < arr.length; i++) {
+    if (obj[arr[i]]) {
+        obj[arr[i]] += 1;
+    } else {
+        obj[arr[i]] = 1;
+    }
+}
+
+let max = obj[arr[0]];
+
+for (let key in obj) {
+    if (obj[key] > max) {
+        max = obj[key];
+    }
+}
+
+for (let key in obj) {
+    if (obj[key] === max) {
+        console.log(key);
+    }
+}

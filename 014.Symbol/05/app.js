@@ -4,4 +4,4 @@
 
 let a = `https://www.instagram.com/hschool.official/`;
 
-alert(a.replace(`https://` , ``))
+alert(a.replace(`https://`, ``))

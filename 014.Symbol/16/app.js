@@ -4,4 +4,4 @@
 
 let a = `hSСhOol СomPAnY`.toLowerCase().replace(` `, ``);
 
-alert(isNaN(a) ? a.replace(``, `#`): null);
+alert(isNaN(a) ? a.replace(``, `#`) : null);

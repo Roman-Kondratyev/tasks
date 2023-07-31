@@ -3,8 +3,9 @@
 let a = [1, 5, 8, 123, 555, 565, 4, 6, 12, 12312];
 let b = a[0];
 
-for(let i =0; i<a.length; i++){
-   if( a[i]>b){
- b=a[i] }
+for (let i = 0; i < a.length; i++) {
+  if (a[i] > b) {
+    b = a[i]
+  }
 }
 alert(b);

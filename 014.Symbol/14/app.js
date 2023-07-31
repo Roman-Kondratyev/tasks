@@ -3,4 +3,4 @@
 
 let a = prompt(`введите адрес электронной почты`);
 
-alert(((a.includes(`@`) && a.includes(`.com`)) || a.includes(`.ru`))? true : false);  
+alert(((a.includes(`@`) && a.includes(`.com`)) || a.includes(`.ru`)) ? true : false);  

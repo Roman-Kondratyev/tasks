@@ -5,4 +5,4 @@ let date = `xxxx-xx-xx`;
 
 // alert(date.reverse().replaceAll(`-`, `/`));
 
-alert(date.split(`-`).reverse().join(`/`))
+alert(date.split(`-`).reverse().join(`/`));

@@ -10,8 +10,8 @@ for (let i = 0; i < n; i++) {
   arr.push(value);
 }
 
-const arr2=arr.map(function(el){
-    return el**2
+const arr2 = arr.map(function (el) {
+  return el ** 2
 })
 
 console.log(arr2);

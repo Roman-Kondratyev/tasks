@@ -14,7 +14,7 @@ const obj = {
 //   }
 // }
 
-let arr =0;
+let arr = 0;
 
 for (let key in obj) {
   if (obj[key]) {

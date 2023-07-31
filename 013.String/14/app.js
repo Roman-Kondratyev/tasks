@@ -3,4 +3,4 @@
 
 let a = prompt(`введите url`);
 
-alert(a.includes(`http`) && a.includes(`/`) && a.includes(`.com`) || a.includes(`.ru`) ?  true : false );
+alert(a.includes(`http`) && a.includes(`/`) && a.includes(`.com`) || a.includes(`.ru`) ? true : false);

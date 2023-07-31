@@ -11,6 +11,6 @@ let b = +prompt(`введите значение b`);
 //     alert(b);
 // } 
 
-a>b? alert (a): alert(b);
-alert( Math.max(a,b))
+a > b ? alert(a) : alert(b);
+alert(Math.max(a, b));
 

@@ -7,6 +7,6 @@ let num = a.split('');
 if (a > 99 && a < 1000) {
     alert(`сумма цифр= ${Number(a[0]) + Number(a[1]) + Number(a[2])}`);
     alert(`произведение цифр= ${Number(a[0]) * Number(a[1]) * Number(a[2])}`);
-} else{
+} else {
     alert(`значение слишком велико`);
-}
+};

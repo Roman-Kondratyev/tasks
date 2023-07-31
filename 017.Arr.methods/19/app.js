@@ -13,11 +13,11 @@ for (let i = 0; i < n; i++) {
 let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
-if(arr[i]===0){
+  if (arr[i] === 0) {
     break
-}else{
-    sum+=arr[i]
-}
+  } else {
+    sum += arr[i]
+  }
 }
 
 console.log(sum);

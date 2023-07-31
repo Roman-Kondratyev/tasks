@@ -4,10 +4,10 @@
 
 let a = +prompt(`введите значение`);
 
-if(isNaN(a)){
+if (isNaN(a)) {
     alert(false);
-}else if((a>2 && a<11)|| (a>=26 && a<30)){
+} else if ((a > 2 && a < 11) || (a >= 26 && a < 30)) {
     alert(`верно`);
-}else{
-    alert (`неверно`);
+} else {
+    alert(`неверно`);
 };

@@ -3,10 +3,10 @@
 
 const n = 5;
 
-let arr =[];
+let arr = [];
 
-let i =0 ;
-while(i<n){
+let i = 0;
+while (i < n) {
     err.push(i);
     i++
 }

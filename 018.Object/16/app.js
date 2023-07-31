@@ -6,13 +6,13 @@ const obj = {
   age: ``,
   height: ``
 }
-for( let key in obj){
-  obj[key]= prompt(`введите ${key}`);
+for (let key in obj) {
+  obj[key] = prompt(`введите ${key}`);
 }
 let arr = [];
 
-for (let key in obj){
-  !isNaN(obj[key])? arr.push(obj[key]) : null;
+for (let key in obj) {
+  !isNaN(obj[key]) ? arr.push(obj[key]) : null;
 }
 
 console.log(obj);

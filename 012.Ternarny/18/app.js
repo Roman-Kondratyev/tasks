@@ -4,4 +4,4 @@
 
 let a = prompt('введите строку');
 
-alert (isNaN(a) ? a.toUpperCase() : 'это не строка');
+alert(isNaN(a) ? a.toUpperCase() : 'это не строка');

@@ -4,15 +4,15 @@
 // Swap Case => sWAP cASE
 
 let a = 'Swap Case'.split('');
-let b='';
+let b = '';
 
 
 
 for (let i = 0; i < a.length; i++) {
     if (a[i] == a[i].toLowerCase()) {
-        b+=a[i].toUpperCase()
-    }else{
-        b+=a[i].toLowerCase()
+        b += a[i].toUpperCase()
+    } else {
+        b += a[i].toLowerCase()
     }
 }
 

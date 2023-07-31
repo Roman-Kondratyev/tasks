@@ -8,18 +8,18 @@ const arr = [1, 2, 3, 4, 5, 6];
 const n = 5;
 
 if (!isNaN(n)) {
-    let result = [];
-    let temporaryArr = [];
-    for (let i = 0; i < arr.length; i++) {
-      temporaryArr.push(arr[i])
-  
-        if (temporaryArr.length === n) {
-            result.push(temporaryArr);
-            temporaryArr = [];
-        }
+  let result = [];
+  let temporaryArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    temporaryArr.push(arr[i])
+
+    if (temporaryArr.length === n) {
+      result.push(temporaryArr);
+      temporaryArr = [];
     }
-    temporaryArr.length === 0 ? null : result.push(temporaryArr);
-    console.log(result);
-  } else {
-    console.log('ошибка ввода');
   }
+  temporaryArr.length === 0 ? null : result.push(temporaryArr);
+  console.log(result);
+} else {
+  console.log('ошибка ввода');
+}

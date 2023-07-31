@@ -3,8 +3,8 @@
 
 let a = prompt(`введите строку`).trim().toLowerCase();
 
-if(!isNaN(a)){
+if (!isNaN(a)) {
     alert(`ошибка ввода`);
-} else{
+} else {
     alert(a.length);
 }

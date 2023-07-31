@@ -4,4 +4,4 @@
 let a = `настя не берет нас в Грецию`;
 let b = `нас в Грецию`
 
-alert(a.endsWith(b) ? true: false);
+alert(a.endsWith(b) ? true : false);

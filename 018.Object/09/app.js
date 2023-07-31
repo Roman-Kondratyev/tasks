@@ -12,7 +12,7 @@ let count = 0;
 
 for (let key in obj) {
   if (!isNaN(obj[key])) {
-    count++
+    count++;
   }
 }
 console.log(count);

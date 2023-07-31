@@ -10,12 +10,12 @@ const obj = {
   6: 6
 };
 
-const arr =[];
+const arr = [];
 
 for (let key in object) {
   if (!isNaN(obj[key])) {
-    arr.push(obj[key]*2);
-    
+    arr.push(obj[key] * 2);
+
   }
 }
 

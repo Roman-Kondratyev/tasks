@@ -3,12 +3,12 @@
 // 5 -> 120 (1*2*3*4*5)
 
 let a = prompt(`введите число`);
-let c= 1;
+let c = 1;
 
-for ( let i =1; i<=a; i++){
-  c*= i;
-   
-} 
-alert(c)
+for (let i = 1; i <= a; i++) {
+  c *= i;
+
+}
+alert(c);
 
 

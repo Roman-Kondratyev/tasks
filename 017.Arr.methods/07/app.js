@@ -3,15 +3,15 @@
 
 const arr = ["hschool", "hschool_0", "hschool_1"];
 
-// //Вариант 1
-// console.log(arr[0] + arr[2]);
+//Вариант 1
+console.log(arr[0] + arr[2]);
 
-// //вариант 2
-// let result = [];
-// for (let i = 0; i < arr.length; i++) {
-//   i == 0 || i == arr.length - 1 ? result.push(arr[i]) : null;
-// }
-// console.log(result);
+//вариант 2
+let result = [];
+for (let i = 0; i < arr.length; i++) {
+  i == 0 || i == arr.length - 1 ? result.push(arr[i]) : null;
+}
+console.log(result);
 
 // //Вариант 3
 // let resultW = [];

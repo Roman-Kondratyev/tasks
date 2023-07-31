@@ -3,13 +3,13 @@
 // противном случае false
 
 let arr = [];
-let arr2= []
-for (let i = 0; i < 6; i++){
+let arr2 = []
+for (let i = 0; i < 6; i++) {
     arr.push(prompt(``))
 }
 
-for( let i = 0; i<6; i++){
+for (let i = 0; i < 6; i++) {
     arr2.push(prompt(``))
 }
 
-arr2 === arr ? true: false;
+arr2 === arr ? true : false;

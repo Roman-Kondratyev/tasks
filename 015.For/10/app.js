@@ -3,4 +3,4 @@
 
 let a = 'титан';
 let b = 'танит';
-console.log(a.split('').sort().join('') === b.split('').sort().join('') ? 'анаграмма' : 'не анаграмма' );
+console.log(a.split('').sort().join('') === b.split('').sort().join('') ? 'анаграмма' : 'не анаграмма');

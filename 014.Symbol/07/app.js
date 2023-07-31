@@ -3,4 +3,4 @@
 // hSСhOol -> #hschool
 
 let a = `hSChool`.toLowerCase();
-alert(isNaN(a)? a.replace(``, `#`): null )
+alert(isNaN(a) ? a.replace(``, `#`) : null);

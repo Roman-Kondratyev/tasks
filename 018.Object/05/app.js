@@ -14,7 +14,7 @@ const arr = [];
 
 for (let key in obj) {
   if (key % 2 != 0) {
-    arr.push(key)
+    arr.push(key);
   }
 }
 

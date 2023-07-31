@@ -2,4 +2,4 @@
 
 let a = +prompt(`введите число`);
 
-alert( !isNaN(a)? Math.sqrt(a).toFixed(0): `введите число`);
+alert(!isNaN(a) ? Math.sqrt(a).toFixed(0) : `введите число`);

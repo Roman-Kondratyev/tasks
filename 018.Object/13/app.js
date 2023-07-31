@@ -10,16 +10,16 @@
 // 3 : 1
 // }
 
-const obj  ={};
+const obj = {};
 let n = prompt(`введите рандомное количество элементов массива`);
 let arr = [];
 
-for(let i = 0; i<n; i++){
+for (let i = 0; i < n; i++) {
   arr.push(prompt(`введите рандомный элемент массива`));
 }
 
- for (let i = 0; i<n; i++) {
+for (let i = 0; i < n; i++) {
   obj[i] = arr[i];
-  }
-  console.log(obj);
+}
+console.log(obj);
 

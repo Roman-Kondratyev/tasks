@@ -8,4 +8,4 @@ let b = a.indexOf(`b`);
 
 let c = a.lastIndexOf(`b`);
 
-alert(a.slice(b, c+1));
+alert(a.slice(b, c + 1));

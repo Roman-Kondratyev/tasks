@@ -3,4 +3,4 @@
 
 // alert((Math.random()*100).toFixed(0));
 
-alert(Math.round(Math.random()*100));
+alert(Math.round(Math.random() * 100));

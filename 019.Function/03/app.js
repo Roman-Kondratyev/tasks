@@ -9,9 +9,9 @@ function doUpperCase(string) {
     for (let i = 0; i < string.length; i++) {
         a += string[i][0].toUpperCase() + string[i].slice(1) + ` `;
     }
-    return a
+    return a;
 }
-let result = doUpperCase(str)
+let result = doUpperCase(str);
 
 
 console.log(result);

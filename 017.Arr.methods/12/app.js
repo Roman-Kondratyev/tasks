@@ -5,16 +5,16 @@
 // [“ann”, “school”, “hschool”, “borabora”] -> [“ann”, “hschool”]
 
 const n = prompt(``);
-let arr =[];
+let arr = [];
 
-for(let i = 0; i<n; i++){
+for (let i = 0; i < n; i++) {
   let el = prompt(``);
-  if(isNaN(el)){
+  if (isNaN(el)) {
     arr.push(el);
   }
 }
 
-let result = arr.filter(function(el){
- return el[0]==`a`|| el[0]==`h`? true : false
+let result = arr.filter(function (el) {
+  return el[0] == `a` || el[0] == `h` ? true : false
 });
-console.log (result);
+console.log(result);

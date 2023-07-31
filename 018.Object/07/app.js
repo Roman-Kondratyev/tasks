@@ -3,10 +3,10 @@
 //   значение), то true
 
 const obj = {
-  id:1,
+  id: 1,
 };
 
-let count = 0; 
+let count = 0;
 
 for (let key in object) {
   if (key) {
@@ -14,4 +14,4 @@ for (let key in object) {
   }
 }
 
-console.log(count != 0? true: false);
+console.log(count != 0 ? true : false);

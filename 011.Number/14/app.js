@@ -3,10 +3,10 @@
 
 let a = +prompt("введите число");
 
-if (a&2===0) {
+if (a & 2 === 0) {
     console.log(true);
 } else {
     console.log(false);
-}
+};
 
 

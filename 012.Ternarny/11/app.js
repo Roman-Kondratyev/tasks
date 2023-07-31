@@ -4,12 +4,12 @@
 // 100 -> 1
 
 
-let a= prompt(`введите значение в сантиметрах`);
-let x = a/100;
+let a = prompt(`введите значение в сантиметрах`);
+let x = a / 100;
 
-if(isNaN(a)){
+if (isNaN(a)) {
     alert(`некоректные данные`);
-} else{
-    a=Number(a)
-    alert(x.toFixed(0))
-}
+} else {
+    a = Number(a)
+    alert(x.toFixed(0));
+;}

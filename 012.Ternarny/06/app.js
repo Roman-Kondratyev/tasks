@@ -16,7 +16,7 @@ if (isNaN(a)) {
     } else {
         console.log(Math.round(b));
     }
-}
+};
 
 
 

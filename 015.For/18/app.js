@@ -7,7 +7,7 @@ let a = +prompt(`введите число`);
 let b = ``;
 
 for (let i = 0; i < a.length; i++) {
-b+= (a[i]%2 === 0 ? ` ${a[i]}-чет ` : ` ${a[i]}-неч `);
+    b += (a[i] % 2 === 0 ? ` ${a[i]}-чет ` : ` ${a[i]}-неч `);
 }
 console.log(b);
 

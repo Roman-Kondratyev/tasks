@@ -3,6 +3,6 @@
 
 let a = 9;
 
-for (let i = 1; i<=9; i++) {
-    i%3===0 ? alert(i): null;
+for (let i = 1; i <= 9; i++) {
+    i % 3 === 0 ? alert(i) : null;
 }

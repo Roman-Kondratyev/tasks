@@ -8,3 +8,4 @@ if (!isNaN(a)) {
 } else {
     alert(a.split(" "));
 }
+F

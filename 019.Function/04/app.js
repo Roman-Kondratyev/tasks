@@ -3,11 +3,11 @@
 // [“by”, “belarus”, “de”, “ru”, “germany”] -> [“by”, “de”, “ru”]
 
 const arr = [`by`, `belarus`, `de`, `ru`, `germany`];
-function doFilter(array){
-    let new_arr = array.filter(function(el){
-   return el.length<=2 ?  true : null ;
-})
-return new_arr;
+function doFilter(array) {
+    let new_arr = array.filter(function (el) {
+        return el.length <= 2 ? true : null;
+    })
+    return new_arr;
 }
 
 const result = doFilter(arr);

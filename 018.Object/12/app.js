@@ -7,16 +7,16 @@ const obj = {};
 let arr = [];
 let n = prompt(`введите количество элементов массива`);
 
-for(let i =0 ; i<n; i++){
+for (let i = 0; i < n; i++) {
   let a = +prompt(`введите число`);
-  !isNaN(a)? arr.push(a): null;
+  !isNaN(a) ? arr.push(a) : null;
 }
 
-let result = arr.reduce(function(sum,el){
-  return sum + el
-},0)
+let result = arr.reduce(function (sum, el) {
+  return sum + el;
+}, 0);
 
-obj.sum = result
+obj.sum = result;
 
 
 console.log(obj);
