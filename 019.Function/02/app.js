@@ -10,8 +10,8 @@ function showResult(word) {
         } else {
             return el.toUpperCase();
         }
-    })
-    return result.join(``);
+    });
+    return result.join(` `);
 }
 let res = showResult(word);
-console.log(res)
+console.log(res);
