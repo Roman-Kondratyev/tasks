@@ -2,19 +2,19 @@
 // без повторений -> [1, 2, 3, 4, 5] (for, for of)
 
 const arr = [1, 2, 2, 3, 4, 4, 3, 4, 5];
-let result = [];
+let newarr = [];
 
-for (let i = 0; i < arr.length; i++) {
-  if (!result.includes(arr[i])) {
-    result.push(arr[i]);
-  }
-}
-console.log(result);
+// for(let i =0 ; i<arr.length; i++){
+//     if(!newarr.includes(arr[i])){
+//         newarr.push(arr[i])
+//     }
+// }
+// console.log(newarr);
 
 
 for (let el of arr) {
-  if (!result.includes(el)) {
-    result.push(el)
-  }
+    if(!newarr.includes(el)){
+        newarr.push(el)
+    }
 }
-console.log(result);
+console.log(newarr);

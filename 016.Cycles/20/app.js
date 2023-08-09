@@ -9,15 +9,15 @@ const num = "55639217".split(``);
 let result = [];
 
 for (let i = 0; i < num.length; i++) {
-  if (i == 0) {
+    if (i == 0) {
+        result.push(num[i]);
+        continue;
+    }
+    let last_el = result[result.length - 1];
+    if (num[i] % 2 !== 0 && last_el % 2 !== 0) {
+        result.push(`:`, num[i]);
+        continue;
+    }
     result.push(num[i]);
-    continue;
-  }
-  let last_el = result[result.length - 1];
-  if (num[i] % 2 !== 0 && last_el % 2 !== 0) {
-    result.push(`:`, num[i]);
-    continue;
-  }
-  result.push(num[i]);
 }
 console.log(result.join(``));

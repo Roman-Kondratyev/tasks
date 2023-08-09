@@ -1,11 +1,13 @@
-// Выведите столбец чисел от 1 до 50. for, while
+// Выведите столбец чисел от 1 до 50. for, while;
 
-for (let i = 1; i < 50; i++) {
-  alert(i);
-}
+// let a = 51;
+
+// for (let i=1; i<a; i++){
+//     console.log(i);
+// }
 
 let i = 1;
-while (i <= 50) {
-  alert(i);
-  i++;
+while(i<51){
+    console.log(i);
+    i++;
 }
