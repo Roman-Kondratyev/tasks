@@ -7,7 +7,7 @@ let arr = [];
 
 let i = 0;
 while (i < n) {
-    err.push(i);
+    arr.push(i);
     i++
 }
 
