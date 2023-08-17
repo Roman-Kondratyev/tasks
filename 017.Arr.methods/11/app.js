@@ -30,6 +30,8 @@ let str = 1;
 arr.ForEach(function (el) {
   if (!isNaN(el)) {
     return str * el;
+  }else {
+    return`ошибка ввода`
   }
 })
 console.log(str);

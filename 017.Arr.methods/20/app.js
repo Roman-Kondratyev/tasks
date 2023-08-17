@@ -10,6 +10,6 @@ for (let i = 0; i < n; i++) {
 }
 
 const arr_2 = arr.filter(function (el) {
-  return el % 2 === 0 ? true : false
+  return el> 0 ? true : false
 })
 console.log(arr_2);

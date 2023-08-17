@@ -14,15 +14,8 @@ for (let i = 0; i < n; i++) {
   }
 }
 
-let sum = 1;
-arr.forEach(function (el) {
-  sum *= el;
-});
+let result = arr.map(function(el){
+  return el%2===0 ? `чет`: `нечет`;
+})
 
-console.log(sum);
-
-// const num = arr.reduce(function (sum, el) {
-//   if (!isNaN(el)) {
-//     return sum * el;
-//   }
-// }, 1);
+console.log(result);

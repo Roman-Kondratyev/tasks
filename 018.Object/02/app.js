@@ -8,7 +8,7 @@ const obj = {
 }
 
 for (let key in obj) {
-  if (isNaN(key)) {
+  if (!isNaN(key)) {
     console.log(key);
   }
 }
