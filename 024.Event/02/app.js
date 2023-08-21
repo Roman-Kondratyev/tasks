@@ -4,7 +4,7 @@
 
 const btn = document.querySelector(`button`);
 
-btn.addEventListener(`click`, function(){
+btn.addEventListener(`click`, function () {
     const inp = document.querySelector(`input`);
-    inp.value=`+375(29)111-11-11`
+    inp.value = `+375(29)111-11-11`
 })

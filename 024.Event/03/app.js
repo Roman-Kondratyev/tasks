@@ -2,7 +2,8 @@
 // клику на кнопку вызвать alert и отобразить сообщение из значения инпута
 
 const btn = document.querySelector(`button`);
-btn.addEventListener(`click`, function(){
+
+btn.addEventListener(`click`, function () {
     const inp = document.querySelector(`input`);
-    alert(inp.value)
+    alert(inp.value);
 })
