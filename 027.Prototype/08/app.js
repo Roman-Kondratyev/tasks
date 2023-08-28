@@ -1,12 +1,6 @@
-// На входе статичный объект и строка str. Необходимо найти в объекте ключ str и
-// вывести true при наличии совпадения, false в противном случае 
+// На вход программе подается число в двоичной системе счисления. Необходимо
+// преобразовать его в десятичную систему счисления
 
-const obj={
-id: `email`,
-name: `Romansobaka.com`,
-age: 23
-}
+const str = '111101';
 
-const str = `id`;
-const bool = Object.hasOwnProperty(str);
-console.log(bool);
+console.log(parseInt(str, 2));
