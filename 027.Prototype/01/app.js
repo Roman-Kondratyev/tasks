@@ -4,24 +4,26 @@
 
 const btn = document.querySelector(`button`);
 const arr = [];
+
 function isValid(inp) {
     if (!inp) throw new Error(`error`)
 }
+
 btn.addEventListener(`click`, function () {
     try {
         const inp = document.querySelector(`input`);
-        const div = document.querySelector(`.array`);
-        const res = document.querySelector(`.result`);
-        isValid(inp.value)
-        arr.push(inp.value)
-        div.innerHTML = arr;
+        const array = document.querySelector(`.array`);
+        const result = document.querySelector(`.result`);
+        isValid(inp.value);
+        arr.push(inp.value);
+        array.innerHTML = arr;
         inp.value = ``;
         let sum = 0;
         for (let i = 0; i < arr.length; i++) {
             sum += +arr[i];
         }
-        res.innerHTML = sum / arr.length
+        result.innerHTML = sum / arr.length;
     } catch (error) {
-        alert(error.message)
+        alert(error.message);
     }
 })
