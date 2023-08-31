@@ -2,16 +2,18 @@
 // surname. Также класс должен иметь метод getAutograph, который будет выводить
 // “{name} {surname), с наилучшими пожеланиями”.
 
-class Singer {
-    constructor(name, surname){
-        this.name = name
-        this.surname = surname
-    }
 
-    getAutograph(){
-        return `${this.name} ${this.surname} с наилучшими пожеланиями`
+class Singer {
+    constructor(name, surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+    getAutograph() {
+        return `${this.name} ${this.surname} с наилучшими пожеланиями`;
     }
 }
-const singer = new Singer (`Roman`, `Kondratyev`);
-const result = singer.getAutograph()
+
+
+const singer = new Singer(`Roman`, `Kondratyev`);
+const result = singer.getAutograph();
 console.log(result);

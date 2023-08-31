@@ -1,4 +1,4 @@
-// Реализуйте класс . Обязательными функциями считаются функции
+// . Реализуйте класс ServerDelete. Обязательными функциями считаются функции
 // middleware, controller, service, repository. Цепочка взаимодействия между методами
 // следующая:
 // middleware -> controller -> service -> repository, где:
@@ -10,26 +10,26 @@
 // Задание:
 // на вход подается JSON вида:
 // `{
-// {"id": "javascript", "label": "JavaScript", "category": "programmingLanguages", "priority": 1
+// "id": "javascript"
 // }`
-// Необходимо найти id клиента в массиве БД. Если совпадение есть, произвести
-// обновление значений для соответствующих ключей.
-// Если совпадения по id нет – ошибка. Добавить проверки 
+// Необходимо осуществить удаление по id. Если совпадения нет – ошибка. Добавить
+// проверки
 
-class ServerPut {
+class ServerDelete {
 
     controller(obj) {
         try {
-            const serv = this.service(obj);
-            return serv;
+            const ser = this.servise(obj);
+            return ser;
         } catch (error) {
-            return error.massage
+            return error.message
         }
     }
 
     service(obj) {
         const rep = this.repository(obj);
         return rep;
+
     }
 
     repository(obj) {
@@ -43,15 +43,12 @@ class ServerPut {
         const new_arr = arr.filter((el) => el.id !== obj.id);
         if (new_arr.length === arr.length) {
             throw new Error(`error`)
-        } else {
-            new_arr.push(obj);
-        }
+        } 
         return new_arr;
     }
-
 }
 
-const serverPut = new ServerPut();
-const obj = JSON.parse(`{"id": "javascript", "label": "JavaScript", "category": "programmingLanguages", "priority": 10}`);
-const result = serverPut.controller(obj);
+const serverDelete = new ServerDelete()
+const obj = JSON.parse(`{"id": "javascript" }`);
+const result = serverDelete.controller(obj);
 console.log(result);
