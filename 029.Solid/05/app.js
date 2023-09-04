@@ -38,7 +38,7 @@ class ServerPost {
         ]
         
         const res = arr.filter((el) => el.name !== obj.name)
-        if (res !== true) {
+        if (res.length === arr.length) {
             arr.push({id: 6 ,...obj}) 
         }
         return arr
