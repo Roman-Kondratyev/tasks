@@ -7,7 +7,7 @@ class Anagram {
         this.an1 = an1;
         this.an2 = an2;
     }
-    
+
     doCheck() {
         return (this.an1.split(``).sort().join(``) === this.an2.split(``).sort().join(``) ? true : false);
     }

@@ -43,7 +43,7 @@ class ServerDelete {
         const new_arr = arr.filter((el) => el.id !== obj.id);
         if (new_arr.length === arr.length) {
             throw new Error(`error`)
-        } 
+        }
         return new_arr;
     }
 }

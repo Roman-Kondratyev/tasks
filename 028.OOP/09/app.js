@@ -10,60 +10,60 @@
 // телефона.
 
 class Validator {
-    isValidEmail(email) {
-      try {
-        if (
-          !/^[A-z0-9\\\/\-\_\@]+(\@)(gmail|yandex|google|gmail|mail|vk)(.com|.ru|.by|.net)$/gm.test(
-            email
-          )
+  isValidEmail(email) {
+    try {
+      if (
+        !/^[A-z0-9\\\/\-\_\@]+(\@)(gmail|yandex|google|gmail|mail|vk)(.com|.ru|.by|.net)$/gm.test(
+          email
         )
-          throw new Error("Email введен неправильно");
-        return true;
-      } catch (error) {
-        return error.message;
-      }
-    }
-  
-    isValidPhone(phone) {
-      try {
-        if (!/^\+375[0-9]{9}$/gm.test(phone))
-          throw new Error("Номер телефона введен неверно");
-        return true;
-      } catch (error) {
-        return error.message;
-      }
-    }
-  
-    isValidData(data) {
-      try {
-        if (!/^[0-9]{2}\.[0-9]{2}\.[0-9]{4}$/gm.test(data))
-          throw new Error("Дата введена неверно");
-        return true;
-      } catch (error) {
-        return error.message;
-      }
-    }
-  
-    isValidUrl(url) {
-      try {
-        if (!/^[a-z]{4,5}:\/\/[A-z0-9]+(.com|.ru|.by|.net)(|\/)$/gm.test(url))
-          throw new Error("Url введен некоректно");
-        return true;
-      } catch (error) {
-        return error.message;
-      }
+      )
+        throw new Error("Email введен неправильно");
+      return true;
+    } catch (error) {
+      return error.message;
     }
   }
-  
-  const validator = new Validator();
-  const email = "roman.kondratyev@gmail.com";
-  console.log(validator.isValidEmail(email));
-  
-  const phone = "8029968598";
-  console.log(validator.isValidPhone(phone));
-  
-  const data = "29.09.2000";
-  console.log(validator.isValidData(data));
-  
-  const urlUser = "https://saitnomb1.com/";
-  console.log(validator.isValidUrl(urlUser));
+
+  isValidPhone(phone) {
+    try {
+      if (!/^\+375[0-9]{9}$/gm.test(phone))
+        throw new Error("Номер телефона введен неверно");
+      return true;
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  isValidData(data) {
+    try {
+      if (!/^[0-9]{2}\.[0-9]{2}\.[0-9]{4}$/gm.test(data))
+        throw new Error("Дата введена неверно");
+      return true;
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  isValidUrl(url) {
+    try {
+      if (!/^[a-z]{4,5}:\/\/[A-z0-9]+(.com|.ru|.by|.net)(|\/)$/gm.test(url))
+        throw new Error("Url введен некоректно");
+      return true;
+    } catch (error) {
+      return error.message;
+    }
+  }
+}
+
+const validator = new Validator();
+const email = "roman.kondratyev@gmail.com";
+console.log(validator.isValidEmail(email));
+
+const phone = "8029968598";
+console.log(validator.isValidPhone(phone));
+
+const data = "29.09.2000";
+console.log(validator.isValidData(data));
+
+const urlUser = "https://saitnomb1.com/";
+console.log(validator.isValidUrl(urlUser));

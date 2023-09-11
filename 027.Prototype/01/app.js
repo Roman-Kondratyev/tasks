@@ -13,7 +13,7 @@ btn.addEventListener(`click`, function () {
     try {
         const inp = document.querySelector(`input`);
         const array = document.querySelector(`.array`);
-        const result = document.querySelector(`.result`);
+        const result = document.querySelector(`.result`); 
         isValid(inp.value);
         arr.push(inp.value);
         array.innerHTML = arr;
@@ -27,3 +27,4 @@ btn.addEventListener(`click`, function () {
         alert(error.message);
     }
 })
+

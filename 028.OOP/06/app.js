@@ -39,5 +39,5 @@ class ServerGetAll {
 }
 
 const serverGetAll = new ServerGetAll();
-const result  = serverGetAll.controler();
+const result = serverGetAll.controler();
 console.log(result);
