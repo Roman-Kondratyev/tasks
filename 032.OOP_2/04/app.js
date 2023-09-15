@@ -9,7 +9,7 @@ const obj = {
 }
 
 function doArr(obj) {
-    const arr =Object.values(obj);
+    const arr = Object.values(obj);
     return arr;
 }
 

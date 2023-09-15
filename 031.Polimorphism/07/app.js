@@ -45,7 +45,7 @@ class Server {
 }
 
 
-class Client  {
+class Client {
     sendRequest() {
         const btn = document.querySelector('button');
         btn.addEventListener('click', function () {

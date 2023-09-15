@@ -7,17 +7,17 @@ const n = 5;
 
 
 function doArray(n) {
-const arr = [];
-for(let i = 0; i<n; i++){
-arr.push(prompt(`введите элемент`));
-}
-   return arr ;
+    const arr = [];
+    for (let i = 0; i < n; i++) {
+        arr.push(prompt(`введите элемент`));
+    }
+    return arr;
 }
 
 const result = doArray(n);
 
 function doNewArray(result) {
-    const new_arr = result.map((el)=> `#`+ el);
+    const new_arr = result.map((el) => `#` + el);
     return new_arr;
 }
 

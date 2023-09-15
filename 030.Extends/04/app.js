@@ -5,7 +5,7 @@
 // Дочерние классы содержать геттеры на получение площади
 
 class Figure {
-    pi= 3.14;
+    pi = 3.14;
     radius;
     side;
     height;
@@ -21,19 +21,19 @@ class Figure {
     }
 }
 
-class Circle extends Figure{
+class Circle extends Figure {
 
 }
 
-class Triangle extends Figure{
+class Triangle extends Figure {
 
 }
 
-class Square extends Figure{
+class Square extends Figure {
 
 }
 
 const circle = new Circle();
 const triangle = new Triangle();
-const  square = new  Square();
+const square = new Square();
 

@@ -13,7 +13,7 @@ btn.addEventListener(`click`, function () {
     const div = document.querySelector(`div`);
     try {
         isValid(inp.value)
-        
+
         arr.push(inp.value);
         div.innerHTML = arr;
     } catch (error) {

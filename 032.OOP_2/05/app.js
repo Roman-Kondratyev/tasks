@@ -18,6 +18,6 @@ btn.addEventListener(`click`, function () {
     } catch (error) {
         alert(error.message)
     }
-inp.value =``
+    inp.value = ``
 })
 

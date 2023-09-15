@@ -29,7 +29,8 @@ class Validation extends Pwd {
             console.log(er.message);
         }
 
-    }}
+    }
+}
 
-    const validation = new Validation();
-    validation.showPwd();
+const validation = new Validation();
+validation.showPwd();

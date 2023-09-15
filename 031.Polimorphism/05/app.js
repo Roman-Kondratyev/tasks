@@ -23,12 +23,12 @@ class Validation extends StringValue {
     }
     checkValue() {
         try {
-            if(!isNaN(this.value)) throw new Error (`введено число`);
-            if(this.value !== this.confirmValue) throw new Error (`строки не равны`);
+            if (!isNaN(this.value)) throw new Error(`введено число`);
+            if (this.value !== this.confirmValue) throw new Error(`строки не равны`);
             console.log(true);
-            
+
         } catch (er) {
-            console.log(er.message); 
+            console.log(er.message);
         }
     }
 }

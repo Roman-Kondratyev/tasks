@@ -15,45 +15,45 @@
 // вывести их на экран. 
 
 class Employee {
-nameOfEmployee;
-numOfEmployee;
-getNameOfEmplayee(){
-return this.nameOfEmployee
+    nameOfEmployee;
+    numOfEmployee;
+    getNameOfEmplayee() {
+        return this.nameOfEmployee
+    }
+
+    getNumOfEmplayee() {
+        return this.numOfEmployee
+    }
+
+    setNameOfEmplayee(nameOfEmployee) {
+        this.nameOfEmployee = nameOfEmployee;
+    }
+
+    setNumOfEmplayee(numOfEmployee) {
+        this.numOfEmployee = numOfEmployee
+    }
+
 }
 
-getNumOfEmplayee(){
-    return this.numOfEmployee
-}
 
-setNameOfEmplayee(nameOfEmployee){
-this.nameOfEmployee = nameOfEmployee;
-}
+class ProductionWorker extends Employee {
+    numOfChange;
+    rateOfChange;
+    getNumOfChange() {
+        return this.numOfChange
+    }
 
-setNumOfEmplayee(numOfEmployee){
-    this.numOfEmployee = numOfEmployee
-}
+    getRateOfChange() {
+        return this.rateOfChange
+    }
 
-}
+    setNumOfChange(numOfChange) {
+        this.numOfChange = numOfChange;
+    }
 
-
-class ProductionWorker extends Employee{
-numOfChange;
-rateOfChange;
-getNumOfChange(){
-return this.numOfChange
-}
-
-getRateOfChange(){
-    return this.rateOfChange
-}
-
-setNumOfChange(numOfChange){
-    this.numOfChange = numOfChange;
-}
-
-setRateOfChange(rateOfChange){
-this.rateOfChange = rateOfChange
-}
+    setRateOfChange(rateOfChange) {
+        this.rateOfChange = rateOfChange
+    }
 }
 
 const productionWorker = new ProductionWorker()

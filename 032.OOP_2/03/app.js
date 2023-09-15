@@ -9,8 +9,8 @@ const obj = {
 
 function doPar(obj) {
     let count = 0;
-    for(let key in obj){
-        count ++;
+    for (let key in obj) {
+        count++;
     }
     return count;
 }

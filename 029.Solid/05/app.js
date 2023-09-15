@@ -36,10 +36,10 @@ class ServerPost {
             { "id": 4, "name": "German", "age": 18 },
             { "id": 5, "name": "Maria", "age": 27 }
         ]
-        
+
         const res = arr.filter((el) => el.name !== obj.name)
         if (res.length === arr.length) {
-            arr.push({id: 6 ,...obj}) 
+            arr.push({ id: 6, ...obj })
         }
         return arr
     }

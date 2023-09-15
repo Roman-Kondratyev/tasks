@@ -27,4 +27,4 @@ class ConsoleArray extends NumberArray {
 }
 
 const consoleArray = new ConsoleArray();
-consoleArray. multArr();
+consoleArray.multArr();
