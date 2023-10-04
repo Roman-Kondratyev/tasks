@@ -2,6 +2,6 @@
 //     же результат – число с плавающей точкой, то округлить то целых)
 
 
-let a = +prompt("введите желаемое число");
+let numb = +prompt("введите желаемое число");
 
-alert(Math.sqrt(a).toFixed(0));
+alert(Math.sqrt(numb).toFixed(0));

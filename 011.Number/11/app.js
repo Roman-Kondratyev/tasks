@@ -5,7 +5,7 @@ let a = +prompt("введите первое число");
 
 let b = +prompt("введите второе число");
 
-console.log("сума", a + b);
+console.log("сумма", a + b);
 
 console.log("разность", a - b);
 

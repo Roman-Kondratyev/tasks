@@ -7,5 +7,4 @@
 
 const a = +prompt('введите минуты');
 
-
 console.log(Math.floor(a / 60) + ' час ' + (a % 60) + ' минут');

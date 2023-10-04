@@ -16,4 +16,4 @@ for (let i = 0; i < a.length; i++) {
         count = count + 1;
     }
 }
-alert(sum / count);
+console.log(sum / count);

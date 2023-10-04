@@ -3,7 +3,6 @@
 
 const a = +prompt("введите длину ребра");
 
-
 console.log("обьем", a ** 2);
 
 console.log("площадь", 6 * a ** 2);
