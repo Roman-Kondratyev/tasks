@@ -3,13 +3,13 @@
 
 
 const btn = document.querySelector(`button`);
-btn.addEventListener(`click`, ()=>{
+btn.addEventListener(`click`, () => {
     const inp = document.querySelector(`input`);
     const div = document.querySelector(`div`);
 
-if(/^[0-9]{2}-[0-9]{2}-[0-9]{4}$/gm.test(inp.value)){
-    div.innerHTML = `совпадает`;
-}else{
-    div.innerHTML= `не совпадает`;
-}
+    if (/^[0-9]{2}-[0-9]{2}-[0-9]{4}$/gm.test(inp.value)) {
+        div.innerHTML = `совпадает`;
+    } else {
+        div.innerHTML = `не совпадает`;
+    }
 })

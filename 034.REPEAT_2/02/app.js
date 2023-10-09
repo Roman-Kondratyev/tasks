@@ -3,8 +3,8 @@
 // все четные элементы этого массива и нечетные
 
 const btn = document.querySelector(`button`);
-const array =[];
-btn.addEventListener(`click`, ()=>{
+const array = [];
+btn.addEventListener(`click`, () => {
     const inp = document.querySelector(`input`);
     const arr = document.querySelector(`.arr`);
     const chet = document.querySelector(`.chet`);
@@ -12,12 +12,12 @@ btn.addEventListener(`click`, ()=>{
 
     array.push(inp.value);
     arr.innerHTML = array;
-    inp.value ="";
+    inp.value = "";
 
-    const chetArr =[];
+    const chetArr = [];
     const nechetArr = [];
 
-    array.forEach((el)=>el%2 == 0 ? chetArr.push(el): nechetArr.push(el));
+    array.forEach((el) => el % 2 == 0 ? chetArr.push(el) : nechetArr.push(el));
     chet.innerHTML = `четные значения ${chetArr}`;
     nechet.innerHTML = `нечетные значения ${nechetArr}`;
 })

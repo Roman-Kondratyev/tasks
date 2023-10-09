@@ -4,20 +4,20 @@
 
 
 const btn = document.querySelector(`button`);
-const array =[];
-btn.addEventListener(`click`, ()=>{
+const array = [];
+btn.addEventListener(`click`, () => {
     const inp = document.querySelector(`input`);
     const arr = document.querySelector(`.arr`);
     const uniq = document.querySelector(`.uniq`);
 
     array.push(inp.value);
     arr.innerHTML = array;
-    inp.value =``;
+    inp.value = ``;
 
     const uniqArr = [];
 
-    for(let i = 0; i<array.length; i++){
-        if(!uniqArr.includes(array[i])){
+    for (let i = 0; i < array.length; i++) {
+        if (!uniqArr.includes(array[i])) {
             uniqArr.push(array[i]);
         }
     }
